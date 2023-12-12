@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "2023-12-11T16:34:07.883Z",
+      "title": "Buy bike",
+      "completed": true
+    },
+    {
+      "id": "2023-12-11T16:35:05.636Z",
+      "title": "Check email",
+      "completed": false
+    },
+    {
+      "id": "2023-12-11T17:21:53.881Z",
+      "title": "Change cool chair",
+      "completed": false
+    }
+  ]
+}

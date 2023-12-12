@@ -1,76 +1,46 @@
-##  🚀 Завдання
+# Getting Started with Create React App
 
-Головним завданням є створення демо додатку *ToDO*, реалізація *CRUD* за допомогою *jsonplaceholder*.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## 📎 Посилання
+In the project directory, you can run:
 
-**API документація**: [jsonplaceholder](https://jsonplaceholder.typicode.com/)
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 🛠 Технології
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-⚡️ **Основа**
+### `npm test`
 
-- ```TypeScript```
-- ```React``` 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-⚡️ **Data fetching**
+### `npm run build`
 
-- ```RTK Query```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-⚡️ **Роутінг**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- ```React Router```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-⚡️ **UI бібліотеки (на вибір)**
+### `npm run eject`
 
-- ```Material UI```
-- ```Chakra UI```
-- ```Ant Design```
-- ```Tailwind CSS```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-⚡️ **Стилізація (на вибір)**
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- ```styled-component```
-- ```Стилізація методами вибраної UI бібліотеки``` 
-- ```SASS/SCSS/LESS modules```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-⚡️ **Валідація та форматування коду**
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- ```ESLint``` 
-- ```Prettier``` 
+## Learn More
 
-> Можете використовувати лише ESLint (для валідації та форматування), або в поєднанні з Prettier.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-> Усі бібліотеки мають бути актуальної версії.
-
-
-## 👩‍💻 Технічні аспекти
-
-Додаток складається з 2-х сторінок **Home = ToDo List**, **ToDo page**:
-
-<br>
-
-Елементи сторінки **Home = ToDo List**:
-
-* Список ToDo
-* Можливість додавання *ToDo*
-* Можливість видалення *ToDO*
-* Можливість переходу на сторінку *ToDO*
-
-
-Елементи сторінки **ToDo page**:
-
-* Контент *ToDo* згідно *ID*
-* Можливість редагування *ToDo*
-* Можливість видалення *ToDo*
-
-<br>
-
-## 📌 Порядок виконання завдання
-
-* Зробіть **fork** данного репозиторія
-* Виконайте завдання з використанням технологій та дотриманням усіх пунктів описаних вище
-* Створіть **pull request** виконаного завдання в данний репозиторій
-* Повідомте про виконання завдання
+To learn React, check out the [React documentation](https://reactjs.org/).

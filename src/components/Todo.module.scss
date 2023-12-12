@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px;
+
+}
+
+.input {
+  width: 400px;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px darkgray;
+
+  &:hover, &:focus {
+    border-bottom: solid 1px steelblue;
+  }
+}
+
+
+.cardList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.navLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  padding: 15px;
+  gap: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  position: relative;
+  transition: box-shadow 250ms ease-in-out;
+
+
+  &:hover {
+    box-shadow: -2px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: start;
+  margin-left: 15px;
+  margin-right: auto;
+}
+
